@@ -93,7 +93,7 @@ cp .env.example .env
 #### 🔐 Example `.env` (Backend)
 
 ```env
-PORT=5000
+PORT=8000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_secret_key
 
