@@ -1,11 +1,15 @@
-# 🎬 Skyline Movie Catalog
+# Skyline Movie Catalog
 
 A **fullstack movie catalog application** built for an airline company.  
 The system allows passengers to log in, browse movies, leave comments, and rate movies, while administrators can manage the catalog and moderate reviews.
 
 ---
 
-## 🚀 Tech Stack
+## Demo
+
+▶️ [Screen Recording](https://drive.google.com/file/d/1xcUtn4vy7I4X3o9zXdviVxSKqAZ3s9JP/view?usp=drive_link)
+
+## Tech Stack
 
 ### Frontend
 
@@ -24,7 +28,7 @@ The system allows passengers to log in, browse movies, leave comments, and rate 
 
 ---
 
-## ✨ Features
+## Features
 
 - 🔑 **Authentication**: Secure login/logout with JWT
 - 🎥 **Movie Catalog**: Covers, titles, synopsis, average rating
@@ -35,7 +39,7 @@ The system allows passengers to log in, browse movies, leave comments, and rate 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 skyline/
@@ -61,7 +65,7 @@ skyline/
 
 ---
 
-## ⚙️ Setup & Installation
+## Setup & Installation
 
 ### 1️⃣ Prerequisites
 
@@ -90,7 +94,7 @@ npm install
 cp .env.example .env
 ```
 
-#### 🔐 Example `.env` (Backend)
+#### Example `.env` (Backend)
 
 ```env
 PORT=8000
@@ -162,7 +166,7 @@ npm start
 
 ---
 
-## 📜 API Endpoints
+## API Endpoints
 
 ### Auth
 
@@ -188,7 +192,7 @@ npm start
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Rakesh Kumar**  
 📌 [GitHub](https://github.com/RakeshKumarHR)
