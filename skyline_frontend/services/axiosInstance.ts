@@ -8,7 +8,7 @@ import { getServerSession } from "next-auth";
 import { getSession } from "next-auth/react";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: process.env.NEXT_PUBLIC_API_URL,
   timeout: 60 * 1000,
   timeoutErrorMessage:
     "We are unable to connect to the server. Please try again later.",

@@ -144,7 +144,7 @@ cp .env.local.example .env.local
 ```env
 NEXTAUTH_SECRET=your_secret
 NEXTAUTH_URL=http://localhost:3000
-API_URL=http://localhost:8000
+NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
 #### ▶️ Start Frontend
