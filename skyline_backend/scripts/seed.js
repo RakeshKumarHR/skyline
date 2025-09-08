@@ -33,7 +33,7 @@ const seedData = async () => {
     }
 
     const adminEmail = process.env.ADMIN_EMAIL || "admin@skyline.com";
-    const adminPassword = process.env.ADMIN_PASSWORD || "admin123";
+    const adminPassword = process.env.ADMIN_PASSWORD || "Admin@123";
 
     const adminExists = await User.findOne({ email: adminEmail });
 
