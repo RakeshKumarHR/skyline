@@ -8,6 +8,7 @@ import DeleteIcon from "@/assets/delete";
 import EyeSlash from "@/assets/eye-slash";
 import { deleteComment, updateCommentStatus } from "../../../services/profile";
 import { useRouter } from "next/navigation";
+import { formatDate } from "@/utils";
 interface CommentProps {
   reviews: CommentsResponse[];
 }
@@ -49,7 +50,7 @@ export default function Reviews({ reviews }: CommentProps): JSX.Element {
         user: c.user?.name,
         movie: c.movie?.title,
         comment: c.text,
-        date: new Date(c.createdAt).toLocaleString(),
+        date: formatDate(c.createdAt),
         status: (
           <span
             className={`px-2 py-0.5 rounded-sm !text-[10px] capitalize  ${
