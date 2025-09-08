@@ -23,7 +23,7 @@ export default function Button({
   return (
     <button
       onClick={onClick}
-      className={`${baseClasses} ${variantClasses} ${className}`}
+      className={`cursor-pointer ${baseClasses} ${variantClasses} ${className} `}
     >
       {label}
     </button>
