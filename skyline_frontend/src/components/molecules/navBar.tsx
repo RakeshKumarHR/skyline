@@ -22,7 +22,8 @@ export default function NavBar(): JSX.Element {
   const userInitials = session?.user?.name
     ?.split(" ")
     .map((n) => n[0])
-    .join("");
+    .join("")
+    .substring(0, 2);
 
   const goToProfile = () => {
     setMenuOpen(false);

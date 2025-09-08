@@ -37,7 +37,8 @@ export default function ProfilePage({
   const userInitials = name
     ?.split(" ")
     .map((n) => n[0])
-    .join("");
+    .join("")
+    .substring(0, 2);
 
   return (
     <div className="flex flex-col gap-2">
