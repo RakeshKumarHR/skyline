@@ -121,7 +121,7 @@ export default function MovieComponent({
             }}
           />
           <div
-            className="bg-[#030213] px-[12px] py-[6px] self-end flex gap-2 rounded items-center"
+            className="bg-[#030213] px-[12px] py-[6px] self-end flex gap-2 rounded items-center cursor-pointer"
             onClick={submitComment}
           >
             <PostIcon className="h-3 w-3" />
