@@ -81,7 +81,7 @@ export default function NavBar(): JSX.Element {
         >
           <Typography variant={Caption}>Welcome, {userName}</Typography>
           <div className="flex h-6 w-6 rounded-full items-center justify-center bg-[#155DFC2f]">
-            <Typography variant={Caption} className="text-[#155DFC]">
+            <Typography variant={Caption} className="text-[#155DFC] uppercase">
               {userInitials}
             </Typography>
           </div>

@@ -43,7 +43,9 @@ export default function ProfilePage({
     <div className="flex flex-col gap-2">
       <div className="flex items-center gap-2">
         <div className="flex h-8 w-8 rounded-full items-center justify-center bg-[#155DFC2f]">
-          <Typography className="text-[#155DFC]">{userInitials}</Typography>
+          <Typography className="text-[#155DFC] uppercase">
+            {userInitials}
+          </Typography>
         </div>
         <div>
           <Typography className="text-[12px]">{name}</Typography>
